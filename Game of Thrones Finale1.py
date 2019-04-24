@@ -3,7 +3,7 @@
 """
 Created on Mon Mar 20 23:45:51 2019
 
-@author: GuiReple
+@author: grep22
 
 This script is intended to go through an exploratory analysis of the 
 GOT_character_predictions.xlsx and its main objective is to predict  
@@ -17,7 +17,7 @@ The model with the best ROC AUC CV Score is noted on lines 886-981.
     
 """
 
-##Working Directory: /Users/GuiReple/Desktop/Machine Learning
+##Working Directory: ******
 
 ###############################################################################
 ################## Importing all packages #####################################
@@ -996,5 +996,5 @@ model_predictions_df = pd.DataFrame({'Actual' : y_test,
                                      })
 
 # Moving predictions to excel
-model_predictions_df.to_excel("GOT_Guilherme_Pred.xlsx")
+model_predictions_df.to_excel("GOT_grep22_predictions.xlsx")
 
